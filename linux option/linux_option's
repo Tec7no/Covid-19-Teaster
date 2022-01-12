@@ -1,0 +1,60 @@
+https://github.com/v1s1t0r1sh3r3/airgeddon
+
+ls options : 
+last a
+
+rm options :
+rif
+
+cp options : 
+rip
+
+sort options :
+nrock
+
+grep options :
+L icon 
+
+wc options :
+claw with out a
+(clw)
+search about claw game .
+
+sympols for grep :
+point (.) -> replace 1 character like A. in Ali 
+result will be Al
+
+(^) -> it will match start of string like file have :
+Ali is There ?
+No , Ali is out !
+command : grep "^A" Test
+output : Ali is There ? with red color on A !
+
+
+(?) -> we use it with \ and it meaning the last character of word may be there or not like :
+Ali
+Al
+now to use it write : grep -i "Ali\?" Test 
+
+($) -> we use it to bring last character in line that match with our pattern like :
+
+Ali is There ?
+No , Ali is out !
+Alih Aliasd Al
+
+i will search about -> ? .
+
+grep "?$" Test
+
+i will get just one line and it is the first .
+output : Ali is There ?
+
+(*) -> we use it with -l options thx :) .
+
+(+) -> more than reptation like if u want to get : AAAAAAAsadiam
+
+grep "A\+s" Test
+output : AAAAAAAsadiam
+ 
+ !! u must write (\) to work !!
+ 
